@@ -1,0 +1,62 @@
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Localizacao{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+.WhatsApp{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+.Telefone{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+.Email{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+img{
+    padding: 5px;
+    margin: 3px;
+    width: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    margin:10px;
+}
